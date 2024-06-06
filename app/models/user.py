@@ -14,3 +14,7 @@ class User(BaseModel):
         if self.email in users:
             raise ValueError("A user with this email already exists.")
         users[self.email] = self
+
+def clear_users():
+    users.clear()
+
