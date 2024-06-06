@@ -1,5 +1,7 @@
 import unittest
-from app.models import Place, User, City
+from app.models.place import Place
+from app.models.user import User
+from app.models.city import City
 
 class TestPlace(unittest.TestCase):
     def setUp(self):

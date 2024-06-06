@@ -1,6 +1,6 @@
-from base_model import BaseModel
-from users import User
-from places import Place
-from review import Review
-from cities import City
+from .base_model import BaseModel
+from .user import User
+from .place import Place
+from .review import Review
+from .city import City
 
