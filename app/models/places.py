@@ -1,6 +1,6 @@
 from .base_model import BaseModel
-from .user import User
-from .city import City
+from .users import User
+from .cities import City
 
 class Place(BaseModel):
     def __init__(self, name, description, address, city, host, number_of_rooms, bathrooms, price_per_night, max_guests):
