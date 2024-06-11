@@ -6,7 +6,7 @@ Short description or overview of the project.
 
 - [Introduction]This is the creation of our first python proyect using a combination of skills that we learn in the process(#Introduction)
 - [Usage]testing(#usage)
-- [Configuration](#configuration)
+- [Configuration](#configuration) testing
 - [Contributing](#contributing)
 - [License](#license)
 
