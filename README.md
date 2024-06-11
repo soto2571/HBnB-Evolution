@@ -10,7 +10,7 @@ Short description or overview of the project.
 
 ## Introduction
 
-This is the creation of our first python proyect using a combination of skills that we learn in the process
+This is the creation of our first python project using a combination of skills that we learn in the process
 
 ## Contributing
 
@@ -26,4 +26,4 @@ Contributions to this project are welcome! Here are some of the amazing individu
 1. **Clone the repository:**
    ```sh
    git clone https://github.com/soto2571/HBnB-Evolution
-
+   ```
