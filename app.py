@@ -1,5 +1,5 @@
 from flask import Flask
-from api import user_routes, place_routes
+from app.api import user_routes, place_routes
 from config import SECRET_KEY
 
 def create_app():
