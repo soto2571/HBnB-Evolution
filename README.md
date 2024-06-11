@@ -14,9 +14,12 @@ This is the creation of our first python proyect using a combination of skills t
 
 ## Contributing
 
-Sebastian Soto 
-Angel Velazque
-Xavier Cruz
+Contributions to this project are welcome! Here are some of the amazing individuals who have contributed:
+
+- **Sebastian Soto** - [@soto2571](https://github.com/soto2571)
+- **Angel Velazquez** - [@AngelVelazq](https://github.com/AngelVelazq)
+- **Xavier Cruz** - [@Xavier308](https://github.com/Xavier308)
+
 
 ## Installation
 
