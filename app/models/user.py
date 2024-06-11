@@ -1,6 +1,7 @@
-from .base_model import BaseModel
+from app.models.base_model import BaseModel
+from persistence.data_manager import DataManager
 
-users = {}
+data_manager = DataManager()
 
 class User(BaseModel):
     def __init__(self, email, password, first_name, last_name):
@@ -11,10 +12,11 @@ class User(BaseModel):
         self.last_name = last_name
 
     def save(self):
-        if self.email in users:
-            raise ValueError("A user with this email already exists.")
-        users[self.email] = self
+        for user in data_manager.storage['User'].values():
+            if user.email == self.email:
+                raise ValueError("A user with this email already exists.")
+        data_manager.save(self)
 
 def clear_users():
-    users.clear()
+    data_manager.storage['User'].clear()
 
