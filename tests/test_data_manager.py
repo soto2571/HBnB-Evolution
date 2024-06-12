@@ -3,7 +3,7 @@ from app.models.user import User, clear_users
 from app.models.place import Place
 from app.models.city import City
 from app.models.review import Review
-from persistence.data_manager import DataManager
+from app.persistence.data_manager import DataManager
 
 class TestDataManager(unittest.TestCase):
     def setUp(self):
