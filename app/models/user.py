@@ -1,5 +1,5 @@
 from app.models.base_model import BaseModel
-from persistence.data_manager import DataManager
+from app.persistence.data_manager import DataManager
 
 data_manager = DataManager()
 
